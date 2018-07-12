@@ -1,64 +1,65 @@
-<msDesc>
- <msIdentifier>
-  <settlement>Oxford</settlement>
-  <repository>Bodleian Library</repository>
-  <idno>MS. Add. A. 61</idno>
-  <altIdentifier type="SC">
-   <idno>28843</idno>
-  </altIdentifier>
+<msDesc xml:lang="hu"><!--Az msDesc a sourceDesc-en belül van a headerben!-->
+ <msIdentifier><!--Ez az egy kötelező, a többi opcionális, de kötött a sorrendjük!-->
+  <country>Magyarország</country>
+  <settlement>Pannonhalma</settlement>
+  <institution>Pannonhalmi Bencés Főapátság</institution>
+  <repository>Főapátsági Levéltár</repository>
+  <!--az intézménynevek más nyelven is idekerülhetnek, ha kell-->
+  <idno>Tihany fasc. 1. n. 1.</idno>
+  <msName>A tihanyi apátság alapítólevéle</msName>
+  <!--esetleg ide jöhet még a név más nyelven (angolul és latinul?)-->
  </msIdentifier>
- <msContents>
+ <msContents >
   <msItem>
-   <author xml:lang="en">Geoffrey of Monmouth</author>
-   <author xml:lang="la">Galfridus Monumetensis</author>
-   <title type="uniform" xml:lang="la">De origine et gestis Regum Angliae</title>
-   <rubric xml:lang="la">Hic incipit Bruitus Anglie</rubric>
-   <incipit xml:lang="la">Cum mecum multa &amp; de multis</incipit>
-   <textLang mainLang="la">Latin</textLang>
+   <!--kérdéses
+   <author>
+   <respStmt>
+   -->
+   <title type="uniform" >Tihanyi alapítólevél</title>
+   <!--kérdéses
+   <rubric>
+   <incipit>
+   <explicit>
+   -->
+   <textLang mainLang="la" otherLangs="hu">Latin magyar szórványrészletekkel</textLang>
   </msItem>
+  <!--Lehet még <msItemStruct> és <summary>, de nekünk ehhez nem kellenek-->
  </msContents>
- <physDesc>
-  <objectDesc form="codex">
-   <supportDesc material="perg">
+ <physDesc><!-- kötött a tagek sorrendje!-->
+ <!--Ha van szöveges leírás, akkor annak meg kell előznie a tageket-->
+  <objectDesc form="establishing charter"><!-- két része van: supportDesc és layoutDesc-->
+   <supportDesc material ="perg">
     <support>
-     <p>Parchment.</p>
+     <p><!--Ide jön az oklevél fizikai tulajdonságainak leírása.--></p>
     </support>
-    <extent>i + 55 leaves <dimensions scope="all" type="leaf"
-      unit="inch">
-      <height>7¼</height>
-      <width>5⅜</width>
+    <extent><!--Kérdéses, hogy ez kell-e a méretleíráshoz. Kódexekhez használatos inkább az <extent> alapvetően a terjedelmet írja le, viszont benne lehet a <dimensions> v. <measure>, de lehet sima <p> is.-->
+	<dimensions>
+      <height></height>
+      <width></width>
      </dimensions>
     </extent>
+	<!--Kódexeknél még:
+	<collation></collation>
+	<foliation></foliation>-->
+	<condition><!--Állapotleírás Ruditól?--></condition>
    </supportDesc>
    <layoutDesc>
-    <layout columns="2">
-     <p>In double columns.</p>
+    <layout><!--Vannak használható attribútumok, de lehet sima <p> is.-->
+     <p></p>
     </layout>
    </layoutDesc>
   </objectDesc>
   <handDesc>
-   <p>Written in more than one hand.</p>
   </handDesc>
   <decoDesc>
-   <p>With a few coloured capitals.</p>
   </decoDesc>
  </physDesc>
  <history>
   <origin>
-   <p>Written in <origPlace>England</origPlace> in the <origDate notAfter="1300"
-     notBefore="1200">13th cent.</origDate>
-   </p>
   </origin>
   <provenance>
-   <p>On fol. 54v very faint is <quote xml:lang="la">Iste liber est fratris
-         guillelmi de buria de <gap/> Roberti ordinis fratrum
-         Pred<ex>icatorum</ex>
-    </quote>, 14th cent. (?): <quote>hanauilla</quote> is
-       written at the foot of the page (15th cent.).</p>
   </provenance>
   <acquisition>
-   <p>Bought from the rev. <name key="MCRAYWD">W. D. Macray</name> on <date when="1863-03-17">March 17, 1863</date>, for £1 10s.</p>
   </acquisition>
  </history>
 </msDesc>
-bibliography 
