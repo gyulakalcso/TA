@@ -1,65 +1,102 @@
 <msDesc xml:lang="hu"><!--Az msDesc a sourceDesc-en belül van a headerben!-->
  <msIdentifier><!--Ez az egy kötelező, a többi opcionális, de kötött a sorrendjük!-->
   <country>Magyarország</country>
+  <country xml:lang="en">Hungary</country>
   <settlement>Pannonhalma</settlement>
   <institution>Pannonhalmi Bencés Főapátság</institution>
+  <institution xml:lang="en">...</institution>
   <repository>Főapátsági Levéltár</repository>
+  <repository xml:lang="en">...</repository>
   <!--az intézménynevek más nyelven is idekerülhetnek, ha kell-->
-  <idno>Tihany fasc. 1. n. 1.</idno>
-  <msName>A tihanyi apátság alapítólevéle</msName>
-  <!--esetleg ide jöhet még a név más nyelven (angolul és latinul?)-->
+  <idno>Tihan, fasc. 1, nr. 1.</idno><!--L. Szentgyörgyi 2014: 38.-->
+  <msName>A tihanyi apátság alapítólevele</msName>
+  <msName xml:lang="en">The Establishing <!--Foundation?--> Charter of the Abbey of Tihany</msName>
+  <!--esetleg ide jöhet még a név más nyelven (pl. latinul?)-->
  </msIdentifier>
  <msContents >
-  <msItem>
-   <!--kérdéses
-   <author>
-   <respStmt>
-   -->
-   <title type="uniform" >Tihanyi alapítólevél</title>
-   <!--kérdéses
-   <rubric>
-   <incipit>
-   <explicit>
+  <msItem><!--Ha volna szöveges leírás, akkor tagek nem lehetnek!-->
+    <title type="uniform" >Tihanyi alapítólevél</title>
+	<!--Más nyelveken?-->
+   <!--
+   <filiation>Kérdés, hogy pl. a TÖ ide tartozik-e.
    -->
    <textLang mainLang="la" otherLangs="hu">Latin magyar szórványrészletekkel</textLang>
   </msItem>
-  <!--Lehet még <msItemStruct> és <summary>, de nekünk ehhez nem kellenek-->
  </msContents>
- <physDesc><!-- kötött a tagek sorrendje!-->
- <!--Ha van szöveges leírás, akkor annak meg kell előznie a tageket-->
-  <objectDesc form="establishing charter"><!-- két része van: supportDesc és layoutDesc-->
+ <physDesc>
+  <objectDesc form=""<!--ez kérdéses, ellenőrizni kell-->">
    <supportDesc material ="perg">
     <support>
-     <p><!--Ide jön az oklevél fizikai tulajdonságainak leírása.--></p>
+     <p>Pergamen, két összevarrt déli hártya.</p>
     </support>
     <extent><!--Kérdéses, hogy ez kell-e a méretleíráshoz. Kódexekhez használatos inkább az <extent> alapvetően a terjedelmet írja le, viszont benne lehet a <dimensions> v. <measure>, de lehet sima <p> is.-->
 	<dimensions>
-      <height></height>
-      <width></width>
+      <p><quote source="#Sztgy_2014">A felső hártya szélessége 36,5 és 37,5 cm között váltakozik, hossza 46,5 cm. Az alsó hártya némiképp kisebb: szélessége 35,5 cm, hossza pedig csupán 43,5 cm [...].</quote></p>
      </dimensions>
     </extent>
-	<!--Kódexeknél még:
-	<collation></collation>
-	<foliation></foliation>-->
-	<condition><!--Állapotleírás Ruditól?--></condition>
+	<condition>
+		<p>Az északi hártyára jellemző hajtogatott tárolás miatt több helyen megtört, elszakadt, majd ezeken a helyeken a hátoldal felől durván rávarrt bőrcsíkokkal megerősíttetett.</p>
+		<p><quote source="#Sztgy_2014">Az oklevél megtört részei azonban varrás közben összecsúsztak, emiatt számos helyen egy-egy, esetleg több betű (a varrás kibontása nélkül) nem látszik, egyes sorok pedig függőlegesen elcsúszva folytatódnak.</quote></p>
+	</condition>
    </supportDesc>
    <layoutDesc>
-    <layout><!--Vannak használható attribútumok, de lehet sima <p> is.-->
-     <p></p>
+    <layout>
+     <p>Álló formátumú, <term xml:lang="la">charta transversa</term>. Margót és vakvonalazást tartalmaz, amely az oklevél alsó hártyáján erőteljesebben, a felsőn gyengébben látszik.</p>
+	 <p><quote source="#Sztgy_2014">A szöveget az íróhártyára egyvégtében írták, azt különálló szerkezeti egységekre, bekezdésekre nem tagolták [...]. Az alapítólevél szövegében csupán az ünnepélyes első sor, az aláíró tanúk nevei (a király monogramjával és pecsétjével), illetőleg a datálás egysége különül el.</quote></p>
+	 <p>Az írás néha túllép a margón. Az alsó hártya nincs teleírva.</p>
     </layout>
    </layoutDesc>
   </objectDesc>
   <handDesc>
+	<p>Az előlap egyetlen kéz munkája, Szentgyörgyi (2014) szerint a tanúk neve előtti kereszt alakú jeleket is ugyanaz írta.</p>
+   <!--
+   <handNote>Akkor kell, ha több kéz azonosítható. Hátlap? 
+   -->
   </handDesc>
+  <scriptDesc>
+	<p>11. századi Karoling minuscula, minuta erecta.</p>
+  </scriptDesc>
   <decoDesc>
+   <p><quote source="Sztgy_2014">Az alapítólevél legelső sora [...] – többségében maiusculát tartalmazó, ünnepélyesen megnyújtott – írással (<term xml:lang="la" rend="italic">scriptura longior</term>) áll előttünk [...]. Maiusculák vagy nyújtott minusculák (<term xml:lang="la" rend="italic">litterae elongatae</term>) állnak továbbá a mondatok élén, illetőleg jellemzően az oklevél kiadásában és hitelesítésében közreműködők személyneveinek kezdőbetűjeként. Nagybetűs írásmóddal rögzítették továbbá a király monogramjának és címének (<hi rend="italic">REX</hi>) betűit. Különösen is figyelemre méltók e tekintetben az <hi rend="italic">a</hi> és <hi rend="italic">e</hi> betűk. A jelzett helyeken rendre <hi rend="italic">A</hi> maiusculát találunk, kivéve <name>András király</name> szövegbeli említésének kezdőbetűjeként, itt nyújtott szárú <hi rend="italic">a</hi> minuscula áll. Ezzel szemben a folyamatos szöveg mondatkezdő betűjeként nyújtott <hi rend="italic">e</hi> minuscula áll, míg minden más esetben <hi rend="italic">E</hi> maiusculát találunk.</quote></p>
+   <p><quote source="Sztgy_2014">A tihanyi apátság alapítólevelének élén álló grafikus szimbólum – funkcióját tekintve <term xml:lang="la" rend="italic">invocatio symbolica</term> – a görög <name xml:lang="gr" rend="italic">Χριστός</name> <name rend="italic">’Krisztus’</name> név első két (nagybetűvel írt) betűjéből, az egymásba fonódó <hi rend="italic">Χ</hi> és <hi rend="italic">Ρ</hi> betűkből alkotott jel [...].</quote></p>
+   <p><quote source="Sztgy_2014">További grafikus szimbólum az oklevéladó monogramja [...], mely a Tihanyi alapítólevélen a pecsét (helyének) bal oldalán található [...]. Az alapító és adományozó király latin nevének (Andreas) betűiből összeállított monogram alapbetűje (ductus fundamentalis) az N, a monogram többi eleme ehhez kapcsolódik [...]. A monogram utolsó vonását feltehetően az uralkodó saját kezűleg húzta az íróhártyára [...], amint erre esetleg az alapítólevél szövegéből is következtethetünk: „consignatumque manu regis” (65. sor), ’hitelesíttetett a király keze által’ [...], ez a kitétel azonban a pecséttel történő hitelesítésre is érthető (vö. még 55. sor). A király kezének vonása esetleg az alapbetűhöz balról csatlakozó A betű bal szárát a belső oldalon ismétlő vékonyabb vonás lehet.</quote></p>
+   <p><quote source="Sztgy_2014">Az alapítólevélen grafikus szimbólum továbbá a tanúk neve előtt álló kereszt alakú jel. Annak megítélésében, hogy az alapítólevél hiteles példányára ugyanaz a kéz, az alapítólevél scriptora rögzítette-e valamennyi jelet [...], illetőleg a tanúk maguk (vagy saját írnokaik) rajzolták e kereszteket az oklevélre [...], megoszlik a kutatók véleménye. Igaz ugyan, hogy az összesen 19 kereszt alakú jel nem teljesen azonos, részint formájuk, részint keresztszáruk vastagsága eltér egymástól. Ez az eltérés azonban nem olyan jelentős, hogy e keresztek megrajzolását különböző kezektől (a tanúk vagy írnokaik kezétől) származtassuk [...].</quote></p>
   </decoDesc>
+  <additions>
+	<p><!--Valószínűleg egy szöveges leírás elég.--></p>
+  </additions>
+  <sealDesc>
+  <!--Lehet benne
+  <seal>
+  -->
+  </sealDesc>
  </physDesc>
- <history>
+ <history><!--Mindhárom összetevőnek ua. a struktúrája. A másodikból természetesen lehet több is.-->
   <origin>
+   <p>Készült<origPlace>?</origPlace><origDate>1055</origDate>-ben.
+   </p>
   </origin>
   <provenance>
+   <p></p>
   </provenance>
-  <acquisition>
+  <acquisition><!--A jelenlegi őrzési helyre kerüléssel kapcsolatos dolgok.-->
+   <p></p>
   </acquisition>
  </history>
+ <additional>
+	<adminInfo>
+		<recordHist>
+			<source><!--Honnan vannak az msDesc infói? Ez esetben pl. Szentgyörgyi 2014. Ez amúgy <bibl>, vagy még inkább majd a <listBibl> egyik elemére való hivatkozással valósul meg.--></source>
+			<change><!--A fájlon végrehajtott változtatások infói. Ebből persze lehet több--></change>
+		</recordHist>
+		<availability/><!--Kérdéses, hogy nekünk kell-e. Infók arról, hogyan férhető hozzá az oklevél.-->
+		<custodialHist>
+			<custEvent><!--Ebből persze lehet több. Nem tudom, hogy nekünk releváns-e.--></custEvent>
+		</custodialHist>
+	</adminInfo>
+	<surrogates/><!--<bibl> elemeket tartalmaz, melyek mikrofilmmásolatokat, fotókat és egyéb reprezentációkat írnak le.-->
+	<listBibl>
+		<bibl xml:id="Sztgy_2014">Szentgyörgyi Rudolf: A tihanyi alapítólevél. 2014</bibl>
+	</listBibl>
+ </additional>
 </msDesc>
