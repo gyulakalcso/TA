@@ -1,21 +1,19 @@
 <msDesc xml:lang="hu"><!--Az msDesc a sourceDesc-en belül van a headerben!-->
  <msIdentifier><!--Ez az egy kötelező, a többi opcionális, de kötött a sorrendjük!-->
-  <country>Magyarország</country>
-  <country xml:lang="en">Hungary</country>
-  <settlement>Pannonhalma</settlement>
-  <institution>Pannonhalmi Bencés Főapátság</institution>
-  <institution xml:lang="en">...</institution>
-  <repository>Főapátsági Levéltár</repository>
-  <repository xml:lang="en">...</repository>
-  <!--az intézménynevek más nyelven is idekerülhetnek, ha kell-->
-  <idno>Tihan, fasc. 1, nr. 1.</idno><!--L. Szentgyörgyi 2014: 38.-->
-  <msName>A tihanyi apátság alapítólevele</msName>
-  <msName xml:lang="en">The Establishing <!--Foundation?--> Charter of the Abbey of Tihany</msName>
+  	<country  ref="http://www.geonames.org/719819/">Magyarország</country>
+					<country xml:lang="en">Hungary</country>
+					<settlement ref="http://www.geonames.org/3046693">Pannonhalma</settlement>
+					<institution ref="http://viaf.org/viaf/126296757">Pannonhalmi Bencés Főapátság</institution>
+					<repository ref="https://leveltar.osb.hu/">Főapátsági Levéltár</repository>
+					<idno>Tihan, fasc. 1, nr. 1.</idno><!--L. Szentgyörgyi 2014: 38.-->
+					<msName>A tihanyi apátság alapítólevele</msName>
+					<msName xml:lang="en">The Establishing <!--Foundation?--> Charter of the Abbey of Tihany</msName>
   <!--esetleg ide jöhet még a név más nyelven (pl. latinul?)-->
- </msIdentifier>
- <msContents >
-  <msItem><!--Ha volna szöveges leírás, akkor tagek nem lehetnek!-->
-    <title type="uniform" >Tihanyi alapítólevél</title>
+				</msIdentifier>
+				<msContents>
+					<msItem><!--Ha volna szöveges leírás, akkor tagek nem lehetnek!-->
+						<title type="uniform">Tihanyi alapítólevél</title>
+						<title type="alt">A tihanyi apátság alapítólevele</title>
 	<!--Más nyelveken?-->
    <!--
    <filiation>Kérdés, hogy pl. a TÖ ide tartozik-e.
