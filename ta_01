@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
+<!DOCTYPE TEI SYSTEM "../ta/tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="hu">
+		<fileDesc>
+			<titleStmt>
+				<title>Tihanyi Alapítólevél</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Kritikai kiadás 0.1</edition>
+				<respStmt>
+					<resp xml:lang="hun">szerkesztette: </resp>
+					<resp xml:lang="eng">editor: </resp>
+					<persName xml:id="hi" ref="//viaf.org/viaf/36719478">
+						<surname>Szentgyörgyi</surname>
+						<forename>Rudolf</forename>
+					</persName>
+					<persName>
+						<surname>Kalcsó</surname>
+						<forename>Gyula</forename>
+					</persName>
+					<persName>
+						<surname>Maróthy</surname>
+						<forename>Szilvia</forename>
+					</persName>
+				</respStmt>
+				
+				<respStmt>
+					<resp xml:lang="hun">XML szerkesztés: </resp>
+					<resp xml:lang="eng">XML-editor: </resp>
+					<persName xml:id="msz">
+						<surname>Maróthy</surname>
+						<forename>Szilvia</forename>
+					</persName>
+					<persName xml:id="kgy">
+						<surname>Kalcsó</surname>
+						<forename>Gyula</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :) -->
+					<orgName ref="">Eötvös Loránd Tudományegyetem</orgName>
+					<orgName ref="">Eszterházy Károly Egyetem</orgName>
+				</publisher>
+				<pubPlace ref="http://www.geonames.org/3054643">Budapest</pubPlace>
+				<pubPlace ref="">Eger</pubPlace>
+				<date when-iso="2018">2018</date>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+						<p>A mű a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi Licenc alatt van.</p>
+						
+						<p xml:lang="en">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
+						<ref style="border-width:0" target="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+					</licence>
+				</availability>
+			</publicationStmt>
+		
+			<sourceDesc>
+				<msDesc>
+					<!--Ez az egy kötelező, a többi opcionális, de kötött a sorrendjük!-->
+						<country ref="http://www.geonames.org/719819/">Magyarország</country>
+						<country xml:lang="en">Hungary</country>
+						<settlement ref="http://www.geonames.org/3046693">Pannonhalma</settlement>
+						<institution ref="http://viaf.org/viaf/126296757">Pannonhalmi Bencés Főapátság</institution>
+						<repository ref="https://leveltar.osb.hu/">Főapátsági Levéltár</repository>
+						<idno>Tihan, fasc. 1, nr. 1.</idno><!--L. Szentgyörgyi 2014: 38.-->
+						<msName>A tihanyi apátság alapítólevele</msName>
+						<msName xml:lang="en">The Establishing <!--Foundation?--> Charter of the Abbey of Tihany</msName>
+  <!--esetleg ide jöhet még a név más nyelven (pl. latinul?)--></msDesc>
+					<msContents>
+						<msItem><!--Ha volna szöveges leírás, akkor tagek nem lehetnek!-->
+							<title type="uniform">Tihanyi alapítólevél</title>
+							<title type="alt">A tihanyi apátság alapítólevele</title>
+	<!--Más nyelveken?-->
+   <!--
+   <filiation>Kérdés, hogy pl. a TÖ ide tartozik-e.
+   -->
+							<textLang mainLang="la" otherLangs="hu">Latin magyar szórványrészletekkel</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form=""><!--enek értéke kérdéses, ellenőrizni kell-->
+							<supportDesc material="perg">
+								<support>
+									<p>Pergamen, két összevarrt déli hártya.</p>
+								</support>
+								<extent><!--Kérdéses, hogy ez kell-e a méretleíráshoz. Kódexekhez használatos inkább az <extent> alapvetően a terjedelmet írja le, viszont benne lehet a <dimensions> v. <measure>, de lehet sima <p> is.-->
+									<dimensions>
+										<p>
+											<quote source="#Sztgy_2014">A felső hártya szélessége 36,5 és 37,5 cm között váltakozik, hossza 46,5 cm. Az alsó hártya némiképp kisebb: szélessége 35,5 cm, hossza pedig csupán 43,5 cm [...].</quote>
+										</p>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>Az északi hártyára jellemző hajtogatott tárolás miatt több helyen megtört, elszakadt, majd ezeken a helyeken a hátoldal felől durván rávarrt bőrcsíkokkal megerősíttetett.</p>
+									<p>
+										<quote source="#Sztgy_2014">Az oklevél megtört részei azonban varrás közben összecsúsztak, emiatt számos helyen egy-egy, esetleg több betű (a varrás kibontása nélkül) nem látszik, egyes sorok pedig függőlegesen elcsúszva folytatódnak.</quote>
+									</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout>
+									<p>Álló formátumú, <term xml:lang="la">charta transversa</term>. Margót és vakvonalazást tartalmaz, amely az oklevél alsó hártyáján erőteljesebben, a felsőn gyengébben látszik.</p>
+									<p>
+										<quote source="#Sztgy_2014">A szöveget az íróhártyára egyvégtében írták, azt különálló szerkezeti egységekre, bekezdésekre nem tagolták [...]. Az alapítólevél szövegében csupán az ünnepélyes első sor, az aláíró tanúk nevei (a király monogramjával és pecsétjével), illetőleg a datálás egysége különül el.</quote>
+									</p>
+									<p>Az írás néha túllép a margón. Az alsó hártya nincs teleírva.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Az előlap egyetlen kéz munkája, Szentgyörgyi (2014) szerint a tanúk neve előtti kereszt alakú jeleket is ugyanaz írta.</p>
+   <!--
+   <handNote>Akkor kell, ha több kéz azonosítható. Hátlap? 
+   -->
+						</handDesc>
+						<scriptDesc>
+							<p>11. századi Karoling minuscula, minuta erecta.</p>
+						</scriptDesc>
+						<decoDesc>
+							<p>
+								<quote source="Sztgy_2014">Az alapítólevél legelső sora [...] – többségében maiusculát tartalmazó, ünnepélyesen megnyújtott – írással (<term xml:lang="la" rend="italic">scriptura longior</term>) áll előttünk [...]. Maiusculák vagy nyújtott minusculák (<term xml:lang="la" rend="italic">litterae elongatae</term>) állnak továbbá a mondatok élén, illetőleg jellemzően az oklevél kiadásában és hitelesítésében közreműködők személyneveinek kezdőbetűjeként. Nagybetűs írásmóddal rögzítették továbbá a király monogramjának és címének (<hi rend="italic">REX</hi>) betűit. Különösen is figyelemre méltók e tekintetben az <hi rend="italic">a</hi> és <hi rend="italic">e</hi> betűk. A jelzett helyeken rendre <hi rend="italic">A</hi> maiusculát találunk, kivéve <name>András király</name> szövegbeli említésének kezdőbetűjeként, itt nyújtott szárú <hi rend="italic">a</hi> minuscula áll. Ezzel szemben a folyamatos szöveg mondatkezdő betűjeként nyújtott <hi rend="italic">e</hi> minuscula áll, míg minden más esetben <hi rend="italic">E</hi> maiusculát találunk.</quote>
+							</p>
+							<p>
+								<quote source="Sztgy_2014">A tihanyi apátság alapítólevelének élén álló grafikus szimbólum – funkcióját tekintve <term xml:lang="la" rend="italic">invocatio symbolica</term> – a görög <name xml:lang="gr" rend="italic">Χριστός</name>
+									<name rend="italic">’Krisztus’</name> név első két (nagybetűvel írt) betűjéből, az egymásba fonódó <hi rend="italic">Χ</hi> és <hi rend="italic">Ρ</hi> betűkből alkotott jel [...].</quote>
+							</p>
+							<p>
+								<quote source="Sztgy_2014">További grafikus szimbólum az oklevéladó monogramja [...], mely a Tihanyi alapítólevélen a pecsét (helyének) bal oldalán található [...]. Az alapító és adományozó király latin nevének (Andreas) betűiből összeállított monogram alapbetűje (ductus fundamentalis) az N, a monogram többi eleme ehhez kapcsolódik [...]. A monogram utolsó vonását feltehetően az uralkodó saját kezűleg húzta az íróhártyára [...], amint erre esetleg az alapítólevél szövegéből is következtethetünk: „consignatumque manu regis” (65. sor), ’hitelesíttetett a király keze által’ [...], ez a kitétel azonban a pecséttel történő hitelesítésre is érthető (vö. még 55. sor). A király kezének vonása esetleg az alapbetűhöz balról csatlakozó A betű bal szárát a belső oldalon ismétlő vékonyabb vonás lehet.</quote>
+							</p>
+							<p>
+								<quote source="Sztgy_2014">Az alapítólevélen grafikus szimbólum továbbá a tanúk neve előtt álló kereszt alakú jel. Annak megítélésében, hogy az alapítólevél hiteles példányára ugyanaz a kéz, az alapítólevél scriptora rögzítette-e valamennyi jelet [...], illetőleg a tanúk maguk (vagy saját írnokaik) rajzolták e kereszteket az oklevélre [...], megoszlik a kutatók véleménye. Igaz ugyan, hogy az összesen 19 kereszt alakú jel nem teljesen azonos, részint formájuk, részint keresztszáruk vastagsága eltér egymástól. Ez az eltérés azonban nem olyan jelentős, hogy e keresztek megrajzolását különböző kezektől (a tanúk vagy írnokaik kezétől) származtassuk [...].</quote>
+							</p>
+						</decoDesc>
+						<additions>
+							<p><!--Valószínűleg egy szöveges leírás elég.--></p>
+						</additions>
+						<sealDesc>
+  <!--Lehet benne
+  <seal>
+  --></sealDesc>
+					</physDesc>
+					<history><!--Mindhárom összetevőnek ua. a struktúrája. A másodikból természetesen lehet több is.-->
+						<origin>
+							<p>Készült<origPlace>?</origPlace>
+								<origDate>1055</origDate>-ben.
+   </p>
+						</origin>
+						<provenance>
+							<p></p>
+						</provenance>
+						<acquisition><!--A jelenlegi őrzési helyre kerüléssel kapcsolatos dolgok.-->
+							<p></p>
+						</acquisition>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<source><!--Honnan vannak az msDesc infói? Ez esetben pl. Szentgyörgyi 2014. Ez amúgy <bibl>, vagy még inkább majd a <listBibl> egyik elemére való hivatkozással valósul meg.--></source>
+								<change><!--A fájlon végrehajtott változtatások infói. Ebből persze lehet több--></change>
+							</recordHist>
+							<availability><!--Kérdéses, hogy nekünk kell-e. Infók arról, hogyan férhető hozzá az oklevél.--></availability>
+							<custodialHist>
+								<custEvent><!--Ebből persze lehet több. Nem tudom, hogy nekünk releváns-e.--></custEvent>
+							</custodialHist>
+						</adminInfo>
+						<surrogates/><!--<bibl> elemeket tartalmaz, melyek mikrofilmmásolatokat, fotókat és egyéb reprezentációkat írnak le.-->
+						<listBibl>
+							<bibl xml:id="Sztgy_2014">Szentgyörgyi Rudolf: A tihanyi alapítólevél. 2014</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</teiHeader>
+		<text xml:lang="la">
+			<front>
+XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)ATIS ANDREAS · D<ex>E</ex>I ANNUENTE CLEM<ex>EN</ex>TIA PANNONIORV<ex>M</ex> INVICTVS REX ·</front><body>
+<lb n="2"/>Q<ex>uonia</ex>m nonnulli mortaliu<ex>m</ex> pleru<ex>m</ex>q<ex>ue</ex> hebetati mente siue p<ex>er</ex> ignauia<ex>m</ex> · seu p<ex>er</ex> neglegentię culpa<ex>m</ex> · sepissime etia<ex>m</ex> p<ex>er</ex> s<ex>e</ex>c<ex>u</ex>laris rei cura<ex>m</ex> · n<ex>on</ex> multo post te<ex>m</ex>pore peritura<ex>m</ex> ·
+<lb n="3"/>quę uiderant &amp; audierant obliuionis leuitatib<ex>us</ex> inscii · inmemoresq<ex>ue</ex> credider<ex>unt</ex> · doctores · philosophi · patresq<ex>ue</ex> n<ex>ost</ex>ri qua<ex>m</ex>plurimi consilio · prudentia ·
+<lb n="4"/>suaq<ex>ue</ex> inuener<ex>unt</ex> industria · ut quicquid humanę filii p<ex>ro</ex>paginis ratu<ex>m</ex> fieri decernerent · p<ex>er</ex> man<ex>us</ex> scripto<ex>rum</ex> iugi studio litteraru<ex>m</ex> memoriis co<ex>n</ex>men-
+<lb n="5"/>darent · ne p<ex>er</ex> cariosam uetustate<ex>m</ex> · poss&amp; deleri · apud posteri successores ęui · Id <ex>er</ex>g<ex>o</ex> quia utile ipsis uisum e<ex>st</ex> &amp; bonu<ex>m</ex> · cunctis modernis sapientib<ex>us</ex>
+				<lb n="6"/>utilius idipsum uideat<ex>ur</ex> · &amp; optimu<ex>m</ex> · Unde itaq<ex>ue</ex> xp<ex>ist</ex>ianissimus sceptrifer Andreas iussu auctoritatiuo sub cartali testam<ex>en</ex>to huius priuilegii exarari
+<lb n="7"/>edix<ex>it</ex> · thomo p<ex>re</ex>sente seriatim monstrante · quicquid ad ęccl<ex>esi</ex>am s<ex>an</ex>c<ex>t</ex>ę marię · s<ex>an</ex>c<ex>t</ex>iq<ex>ue</ex> aniani ep<ex>iscop</ex>i &amp; conf<ex>essoris</ex> · in loco qui uulgo dicit<ex>ur</ex> tichon sup<ex>er</ex> balatin · pro sua
+<lb n="8"/>&amp; coniugis · filio<ex>rum</ex> filiaru<ex>m</ex>q<ex>ue</ex> &amp; om<ex>n</ex>iu<ex>m</ex> parentu<ex>m</ex> suo<ex>rum</ex> uiuo<ex>rum</ex> siue defuncto<ex>rum</ex> salute tradidit · in t<ex>er</ex>ris · cultis · &amp; incultis · in uineis · in agriculturis · in seruis · in
+<lb n="9"/>ancillis · in equis · in bubus &amp; ouib<ex>us</ex> · &amp; porcis · in apib<ex>us</ex> · &amp; ipsaru<ex>m</ex> custodib<ex>us</ex> · &amp; in ornam<ex>en</ex>tis ei<ex>us</ex>de<ex>m</ex> ęccl<ex>esi</ex>ę honori p<ex>er</ex>tinentib<ex>us</ex> · Tradidit eni<ex>m</ex> inibi gl<ex>ori</ex>osus prefatus
+<lb n="10"/>rex locu<ex>m</ex> p<ex>re</ex>scriptu<ex>m</ex> in qua eade<ex>m</ex> insula scilic&amp; funda[ta] e<ex>st</ex> ęccl<ex>esi</ex>a cu<ex>m</ex> suis t<ex>er</ex>minis quo<ex>rum</ex> nomina sic adnotant<ex>ur</ex> · Est lacus in circuitu · &amp; uallu<ex>m</ex> ab antiquis labore ·
+<lb n="11"/>manuu<ex>m</ex> operatu<ex>m</ex> &amp; factu<ex>m</ex> · quicquid infra hęc c<ex>on</ex>tinet<ex>ur</ex> in piscationib<ex>us</ex> · in arundinetis · ibi p<ex>er</ex>tinentia sunt · Est in eode<ex>m</ex> lacu locus qui uocat<ex>ur</ex> p&amp;ra cu<ex>m</ex> ceteris
+<lb n="12"/>inibi p<ex>er</ex>tinens · Et hoc notu<ex>m</ex> sit cunctis · q<ex>uo</ex>d om<ex>ni</ex>a quę illa claudunt<ex>ur</ex> insula · in frutectis · in cumulo · &amp; in om<ex>n</ex>ib<ex>us</ex> [p] <ex>re</ex>te[r] uineas ibi p<ex>er</ex>tinentia sunt · prata aut<ex>em</ex> regalia
+<lb n="13"/>quę ad uilla<ex>m</ex> hunc insula p<ex>ro</ex>xima<ex>m</ex> adiacent ad eande<ex>m</ex> ęccl<ex>esi</ex>am sunt p<ex>er</ex>tinentia · Est &amp; portus sup<ex>er</ex> lacu<ex>m</ex> eunde<ex>m</ex> similit<ex>er</ex> p<ex>er</ex>tinens · Riuulus na<ex>m</ex>q<ex>ue</ex> qui d<ex>icitu</ex>r fuk fluens de p<ex>re</ex>fato
+<lb n="14"/>lacu · hab&amp; sup<ex>er</ex> se locu<ex>m</ex> in quo transitus e<ex>st</ex> p<ex>o</ex>p<ex>u</ex>lo<ex>rum</ex> aliquando p<ex>er</ex> ponte<ex>m</ex> · sepe etia<ex>m</ex> p<ex>er</ex> uadum · &amp; hic ibi p<ex>er</ex>tin&amp; · Locus e<ex>st</ex> alius qui d<ex>icitu</ex>r huluoodi p<ex>ro</ex>cedens ab eode<ex>m</ex> lacu ·
+<lb n="15"/>qui totus ibi apend&amp; · &amp; ab eode<ex>m</ex> huluoodi quicq<ex>ui</ex>d e<ex>st</ex> usq<ex>ue</ex> ad monticulu<ex>m</ex> · &amp; ex hoc usq<ex>ue</ex> ad lacu<ex>m</ex> turku · qui medius ad p<ex>o</ex>p<ex>u</ex>l<ex>u</ex>m medius aut<ex>em</ex> p<ex>er</ex>tin&amp; ad ęccl<ex>esi</ex>am · &amp; hic
+<lb n="16"/>extendit<ex>ur</ex> usq<ex>ue</ex> ad zakadat inde ad magna<ex>m</ex> uia<ex>m</ex> · ex hinc usq<ex>ue</ex> ad angulu<ex>m</ex> aruk · &amp; postea usq<ex>ue</ex> ad seg · ac deinde ad ursa · inde u<ex>ero</ex> ad magnu<ex>m</ex> lacu<ex>m</ex> · Preter hunc est
+<lb n="17"/>alius locus · foeno habilis &amp; aptus inter zilu kut &amp; kues kut · ibide<ex>m</ex> p<ex>er</ex>tinens · Similit<ex>er</ex> p<ex>er</ex>tin&amp; ibi alius locus · kert hel nomine ad fenu<ex>m</ex> utilis · Rursus e<ex>st</ex>
+				<lb n="18"/>locus p<ex>er</ex>tinens ad p<ex>re</ex>fata<ex>m</ex> ęccl<ex>esi</ex>am · qui incipit ab eode<ex>m</ex> lacu bolatin · cuius e<ex>st</ex> uocabulu<ex>m</ex> koku zarma · tendens usq<ex>ue</ex> ad magna<ex>m</ex> uia<ex>m</ex> · quę dirigitur in keuris tue ·<ex>
+</ex>
+				<lb n="19"/>&amp; inde iteru<ex>m</ex> usq<ex>ue</ex> ad ia<ex>m</ex> sepe p<ex>re</ex>nominatu<ex>m</ex> lacu<ex>m</ex> · Quęcu<ex>n</ex>q<ex>ue</ex> aut<ex>em</ex> continent<ex>ur</ex> infra hęc · siue insulę · seu feno habiles t<ex>er</ex>rę · seu prata p<ex>ro</ex>cul dubio ei<ex>us</ex>de<ex>m</ex> sunt ęccl<ex>esi</ex>ę
+<lb n="20"/>p<ex>re</ex>ter hęc serui ęccl<ex>esi</ex>ę illius cu<ex>m</ex> t<ex>er</ex>ra &amp; cu<ex>m</ex> piscationib<ex>us</ex> qua<ex>m</ex> prius cu<ex>m</ex> ceteris p<ex>o</ex>p<ex>u</ex>lis possidebant · ibidem p<ex>er</ex>tinent · Arbusta aut<ex>em</ex> quamplurima p<ex>er</ex> circuitu<ex>m</ex> iacentia ·
+<lb n="21"/>eide<ex>m</ex> domo d<ex>e</ex>i de parte p<ex>re</ex>noti regis p<ex>er</ex> ministro<ex>rum</ex> suo<ex>rum</ex> manus s<ex>un</ex>t designata · Inter seku ueieze · &amp; uia<ex>m</ex> quę ducit ad portu<ex>m</ex> · siue in piscationib<ex>us</ex> seu in arun-
+<lb n="22"/>dinetis eide<ex>m</ex> ęccl<ex>esi</ex>ę adpendent · Cu<ex>m</ex> his quę p<ex>re</ex>scripsim<ex>us</ex> est alius locus in eode<ex>m</ex> bolatin · inter putu uueieze &amp; knez · ad s<ex>an</ex>c<ex>t</ex>am p<ex>er</ex>tinens ęccl<ex>esi</ex>am cu<ex>m</ex> s<ex>ui</ex>s piscatio-
+<lb n="23"/>nib<ex>us</ex> &amp; arundinetis · Pret<ex>er</ex> ista locus e<ex>st</ex> cognominatus · lupa · ubi sunt arbores diuersi generis · cumulo · &amp; pratis · ibi similit<ex>er</ex> cu<ex>m</ex> suis redditib<ex>us</ex> adpenden-
+<lb n="24"/>tia · &amp; hinc circu<ex>m</ex>iacent tria alia loca ad fęnu<ex>m</ex> secandu<ex>m</ex> n<ex>on</ex> paru<ex>m</ex> apta inibi adpendentia · Alias e<ex>st</ex> uilla quę uocat<ex>ur</ex> gamas · in qua hab&amp; p<ex>re</ex>fata ęccl<ex>esi</ex>a t<ex>er</ex>ra<ex>m</ex>
+				<lb n="25"/>quę duab<ex>us</ex> continet<ex>ur</ex> uiis · quaru<ex>m</ex> una uocat<ex>ur</ex> ziget zadu · altera magna · quę simul ad s<ex>an</ex>c<ex>tu</ex>m clem<ex>en</ex>te<ex>m</ex> terminant<ex>ur</ex> · Silua aut<ex>em</ex> qua<ex>m</ex> ibi rex habebat
+<lb n="26"/>circu[mquaque campis sibi iacentibus et cum convallibus] ad p<ex>re</ex>fata<ex>m</ex> p<ex>er</ex>tin&amp; ęccl<ex>esi</ex>am · Exceptis his quę p<ex>re</ex>notata superius uident<ex>ur</ex> · Alius locus qui gisnav dicitur ·
+<lb n="27"/>hęc talib<ex>us</ex> t<ex>er</ex>minat<ex>ur</ex> confiniis · iuxta fizeg munorau kereku · inde uluues megaia · post monarau bukurea · hinc ad fizeg azaa · deinde ultra
+<lb n="28"/>fyzeg ad brokinarea · &amp; exinde ad public(a<ex>m</ex>) uia<ex>m</ex> · quę p<ex>ro</ex>telat<ex>ur</ex> usq<ex>ue</ex> ad kurtuel fa · inde u<ex>ero</ex> ad hurhu <e> (·) hinc usq<ex>ue</ex> ad alia<ex>m</ex> uia<ex>m</ex> · quę ducitur iterv<ex>m</ex>
+					<lb n="29"/>ad monarau kerekv · Quęcu<ex>n</ex>q<ex>ue</ex> eni<ex>m</ex> his confi(n)iis continent<ex>ur</ex> [preter vine]as ad iam p<ex>re</ex>dicta<ex>m</ex> ęccl<ex>esi</ex>am p<ex>er</ex>tinent(i)a sunt · Adhuc aut<ex>em</ex> e<ex>st</ex> locus mortis dictus ·
+<lb n="30"/>cuius incipit t<ex>er</ex>minus a sar feu · eri iturea · <e> (h)inc ohut cutarea · inde ad holmodi rea · postea gnir uuege (h)olmodia rea · &amp; exinde mortis uuasara kuta<ex>
+</ex>
+						<lb n="31"/>rea · ac postea nogu azah fehe rea · inde ad ca(s)telic &amp; feheruuaru rea meneh hodu utu rea p<ex>ost</ex> hęc petre zenaia hel rea · Cu<ex>m</ex> his est alias uilla
+<lb n="32"/>quę uocatur fotudi · in qua hab&amp; eade<ex>m</ex> ęccl<ex>esi</ex>a (t<ex>e</ex>)rra<ex>m</ex> arabile<ex>m</ex> quę concluditur · his terminis · Magna uia inde aruk tue quę uallis usq<ex>ue</ex> ad kangrez uiam
+<lb n="33"/>extenditur quęq<ex>ue</ex> tendit usq<ex>ue</ex> ad lean syher <e> (i)ndeq<ex>ue</ex> ad aruk fee post ad luazu holma postea ad uia<ex>m</ex> quę d(u)cit ad kaztelic · Quicquid his terminis
+<lb n="34"/>continetur similit<ex>er</ex> ęccl<ex>esi</ex>ę prefatę adpend&amp; · (E)x alia parte · est locus &amp; terra arabilis cu<ex>m</ex> pratis quę ibi simil(it)er designata est a ministris regis · Infra
+<lb n="35"/>terminos huius ruris silua est quę hab&amp; ini(ci)um ad portu<ex>m</ex> ecli usq<ex>ue</ex> ad fidemsi · exinde ad magna<ex>m</ex> uia<ex>m</ex> (q)uę ducit ad aruk tue · hinc uero ad caput
+<lb n="36"/>p&amp;re post hęc ad bagat mezee · &amp; exinde [ad] asauuagi · Contin&amp; hęc silua qua<ex>m</ex>plures paruulas piscinas (q)uę om<ex>ne</ex>s sunt p<ex>re</ex>scripte ęcl<ex>esi</ex>ę p<ex>re</ex>ter tres ·
+<lb n="37"/>quaru<ex>m</ex> duę sunt regis · tercia na<ex>m</ex>q<ex>ue</ex> s<ex>an</ex>c<ex>t</ex>i mic[ha]elis · Opoudi · &amp; lopdi · regis sunt · Siquę u<ex>ero</ex> sunt arbores (i<ex>n</ex>)ibi fructiferę · siue non fructiferę
+<lb n="38"/>eidem pertinent ęccl<ex>esi</ex>ę · cu<ex>m</ex> his quę prono(ta)vimus est locus ad pascua equo<ex>rum</ex> qui hab&amp; iniciu<ex>m</ex> ad u[g]rin baluuana in parte orientali ·
+<lb n="39"/>exinde ad aiu · post hęc ad eleuui humuk · <e> (i)nde ad harmu ferteu · postea ad ruuoz licu · indeque a[d h]armu hig · inde ad iohtucou · p<ex>ost</ex> hęc
+<lb n="40"/>ad babu humca · inde uero ad oluphelr[e]a · postea ad cuesti inde p<ex>er</ex> medium aquę quę uocatur culun ex qua ad fekete kumuc · hinc
+<lb n="41"/>enim ad fuegnes humuc · postea ad cues humuc · post hęc ad gunusara hinc usq<ex>ue</ex> ad zakadat · ac deinde ad serne holma · post hęc ad aruk<ex>
+</ex>
+								<lb n="42"/>quę ducitur usq<ex>ue</ex> ad baluuan · Hęc loca quicquid in se in frutectis · in arundinetis · in pratis continent · huic domui d<ex>e</ex>i adpendent ·
+<lb n="43"/>Cu<ex>m</ex> om<ex>n</ex>ibus quę iam prescripta sunt addidit bonus rex eidem s<ex>an</ex>c<ex>t</ex>e ęccl<ex>esi</ex>ę · tercia<ex>m</ex> partem forensis tributu<ex>m</ex> de sumig · &amp; cu<ex>m</ex> eo similiter
+<lb n="44"/>tercia<ex>m</ex> partem in thelena cu<ex>m</ex> portu &amp; tributu · Addidit etiam lacum segisti · Ad seruiciu<ex>m</ex> quoq<ex>ue</ex> diuinu<ex>m</ex> strenue &amp; indefesse per-
+<lb n="45"/>agendu<ex>m</ex> · sed &amp; ad laudem ac s<ex>an</ex>c<ex>t</ex>o<ex>rum</ex> ueneratione<ex>m</ex> monacho<ex>rum</ex> grege<ex>m</ex> ibidem aggregauimus · quib<ex>us</ex> &amp; necessaria quęque ad uictu<ex>m</ex> potu<ex>m</ex> seu uestitu<ex>m</ex>
+								<lb n="46"/>forent ex regali habundantia adminstrauim<ex>us</ex> · ne in d<ex>e</ex>i seruicio tepescant · u<ex>e</ex>l uacandi occasione<ex>m</ex> habeant · Ne aut<ex>em</ex> in p<ex>ro</ex>cessu te<ex>m</ex>po<ex>rum</ex> sup<ex>er</ex> his quę
+<lb n="47"/>ad honore<ex>m</ex> xp<ex>ist</ex>i · &amp; ibi degenciu<ex>m</ex> sibiq<ex>ue</ex> famu(l)antiu<ex>m</ex> sustentacione<ex>m</ex> ad p<ex>re</ex>fata<ex>m</ex> ęccl<ex>esi</ex>am c<ex>on</ex>tulim<ex>us</ex> aliqua paciant<ex>ur</ex> calu<ex>m</ex>pnia · singulatim cuncta in p<ex>re</ex>senti
+<lb n="48"/>cartula notarii manu adsignata habent<ex>ur</ex> (·) Sunt igit<ex>ur</ex> aratra XX · cu<ex>m</ex> LX · mansionibus · Vinitores cu<ex>m</ex> uineis XX · equites · XX · piscatores · X ·
+<lb n="49"/>agasones · V · bubulci · III · pastores ouiu<ex>m</ex> (·) III · subulci · II · apinarii · II · coquinarii · II · sutores · II · fabri · II · aurifex · I · dolatores · II · molen-
+<lb n="50"/>dinarii cu<ex>m</ex> molendinis · II · tornator I · uestim<ex>en</ex>to<ex>rum</ex> ablutor · I · cerdo · I · ancillę · X · p<ex>re</ex>ter hęc sunt emissarii · XXXIIII · cu<ex>m</ex> subditis equabus ·
+<lb n="51"/>Vaccę · C · Oues · septingentę · Porci · C · apiu<ex>m</ex> uasa · L · Preter hęc ad necessaria fr<ex>atru</ex>m p<ex>er</ex> singulos annos c<ex>on</ex>stituim<ex>us</ex> de arm<ex>en</ex>to regali · L · pol&amp;ros ·
+<lb n="52"/>Inter om<ex>ne</ex>s na<ex>m</ex>q<ex>ue</ex> sunt seruo<ex>rum</ex> ęccl<ex>esi</ex>ę mansio[ne]s · C · XL · Hęc om<ex>ni</ex>a libera donatione ad p<ex>re</ex>fatu<ex>m</ex> coenob[ium] contulim<ex>us</ex> · &amp; ne quis p<ex>er</ex> succedentiu<ex>m</ex> te<ex>m</ex>po<ex>rum</ex>
+								<lb n="53"/>curricula aliquid ex his defraudare u<ex>e</ex>l r[et]rahere audeat int<ex>er</ex>minando detestam<ex>ur</ex> · Si quis aut<ex>em</ex> malo deprauatus consilio istius decr&amp;i trans-
+<lb n="54"/>gressor rep<ex>er</ex>tus fuerit sequestratus a d<ex>e</ex>o p<ex>er</ex>p&amp;ua feriatur uindicta · &amp; XII · libras auri p<ex>er</ex>soluere cogat<ex>ur</ex> · Et ut hęc descriptio rata atq<ex>ue</ex> incon-
+<lb n="55"/>uulsa p<ex>er</ex>maneat · sigilli n<ex>ost</ex>ri inp<ex>re</ex>ssione signauim<ex>us</ex> · fidelib<ex>us</ex>q<ex>ue</ex> n<ex>ost</ex>ris corroboranda<ex>m</ex> tradidimus ·
+<lb n="56"/>+ Signum Benedicti archiep<ex>iscop</ex>i · + · Signum · Mauri ep<ex>iscop</ex>i · + · Signu<ex>m</ex> · Clem<ex>en</ex>ti ep<ex>iscop</ex>i · + · Sig<ex>num</ex> Lazari abb<ex>atis</ex> ·
+<lb n="57"/>Sig<ex>num</ex> · Gilconi comitis · + · Signum Zache comitis palatii · + · Signu<ex>m</ex> Woiteh
+<lb n="58"/>comitis · <későbbi betoldás="">+ · Sig<ex>num</ex> · Nicolai ep<ex>iscop</ex>i ·</későbbi betoldás>
+								<lb n="59"/>		ANDREAS		 [LOCUS SIGILLI] 		REX
+|<lb n="60"/> + · Sig<ex>num</ex> · Lutouic · comitis · + · Signum · Irnei comitis · + · Sig<ex>num</ex> · Viti comitis · + Signv<ex>m</ex>
+								<lb n="61"/>Martini comitis · + · Sig<ex>num</ex> · Helie comitis · + · Sig<ex>num</ex> · Andreę comitis · + · Sig<ex>num</ex> · Fancel comitis ·
+<lb n="62"/>+ · Sig<ex>num</ex> · Nane agasonis · + · Sig<ex>num</ex> · Cupan iudici<későbbi betoldás="">s</későbbi betoldás> · + · S<ex>ignum</ex> · Preca infertoris · + · Sig<ex>num</ex> Celu minister
+<lb n="63"/>Anno salutiferę incarnationis unici numinis celi septemplicis uniuersęq<ex>ue</ex> creationis · Mill<ex>esimo</ex> · L · V · feliciter ·
+<lb n="64"/>regnante p<ex>re</ex>fato uictoriosissimo · principe · anno regni sui · VIIII · &amp; cu<ex>m</ex> eo nobilissimo duce · B<ex>ela</ex> · conscriptum est hoc
+<lb n="65"/>priuilegium a beatissimo p<ex>re</ex>sule · N<ex>icolao</ex> · qui tunc te<ex>m</ex>poris uice<ex>m</ex> p<ex>ro</ex>curabat notarii · in curia regali · consignatu<ex>m</ex>q<ex>ue</ex> manu regis
+							<back>
+[ADDITAMENTUM]
+<lb n="1"/>De ęclesiasticis s<ex>an</ex>c<ex>t<e> [ę] marię scilicet &amp; s<ex>an</ex>c<ex>t</ex>i aniani rebus quia r[e]fu<ex>n</ex>dere omnes non potuimus · subscripsimus aut<ex>em</ex> hic ·
+<lb n="2"/>VI · planetę · &amp; VI · albę cum amictis &amp; stolis · atq<ex>ue</ex> cum manipulis · <későbbi betoldás="">etia<ex>m</ex>
+										</későbbi betoldás> capi[d]ulum dalmaticę · &amp; II · subtilia · I · curtina
+<lb n="3"/>linea · calices aurei scilic&amp; tres · duo candelabra argentea · Unu<ex>m</ex> thuribulu<ex>m</ex> aureu<ex>m</ex> · Et una crux ęrea deaurata ·
+<lb n="4"/>Pallia XII · Duo missales · Vnu<ex>m</ex> [no]cturnale · Duo gradalia · Vna urna argentea · Vna scutella argentea · &amp; salinu<ex>m</ex>
+										<lb n="5"/>argent<ex>eum</ex> · Vnu<ex>m</ex> cocleare argenta · Tapecia duo · Et baccinia duo · Adiunxit q<ex>uo</ex>q<ex>ue</ex> piissim<ex>us</ex> rex p<ex>ro</ex> necessitate ęccl<ex>esi</ex>ę atq<ex>ue</ex> fr<ex>atru</ex>m
+<lb n="6"/>bezprenensis mercati tributu<ex>m</ex> · <későbbi betoldás="">víde</későbbi betoldás>lic&amp; sua<ex>m</ex> parte<ex>m</ex> in cacabis &amp; [u]ome[r]ib<ex>us</ex> in ydriis · &amp;iam in om<ex>n</ex>ib<ex>us</ex> ferram<ex>en</ex>tis ·
+[INDICES] 
+<lb n="14"/>fuc
+<lb n="23"/>Gamas
+<lb n="28"/>P<ex>ri</ex>vilegiu<ex>m</ex> originale
+<lb n="30"/>mortus
+<lb n="33"/>i<ex>n</ex> t<ex>err</ex>ytorio tollenę e<ex>st</ex> villa
+<lb n="34"/>fotody
+<lb n="44"/>de tributu Sumig
+<lb n="52"/>de armento Regis :-
+<lb n="53"/>L · l<ex>i</ex>b<ex>er</ex>i eq[<ex>uorum</ex>]
+</back>
+</body>
+								</text>
+							</TEI>
