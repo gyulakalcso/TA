@@ -176,7 +176,8 @@
 		</teiHeader>
 <text xml:lang="la">
 <front>
-XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)ATIS ANDREAS · D<ex>E</ex>I ANNUENTE CLEM<ex>EN</ex>TIA PANNONIORV<ex>M</ex> INVICTVS REX ·</front><body>
+XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)ATIS ANDREAS · D<ex>E</ex>I ANNUENTE CLEM<ex>EN</ex>TIA PANNONIORV<ex>M</ex> INVICTVS REX ·</front>
+<body>
 <lb n="2"/>Q<ex>uonia</ex>m nonnulli mortaliu<ex>m</ex> pleru<ex>m</ex>q<ex>ue</ex> hebetati mente siue p<ex>er</ex> ignauia<ex>m</ex> · seu p<ex>er</ex> neglegentię culpa<ex>m</ex> · sepissime etia<ex>m</ex> p<ex>er</ex> s<ex>e</ex>c<ex>u</ex>laris rei cura<ex>m</ex> · n<ex>on</ex> multo post te<ex>m</ex>pore peritura<ex>m</ex> ·
 <lb n="3"/>quę uiderant &amp; audierant obliuionis leuitatib<ex>us</ex> inscii · inmemoresq<ex>ue</ex> credider<ex>unt</ex> · doctores · philosophi · patresq<ex>ue</ex> n<ex>ost</ex>ri qua<ex>m</ex>plurimi consilio · prudentia ·
 <lb n="4"/>suaq<ex>ue</ex> inuener<ex>unt</ex> industria · ut quicquid humanę filii p<ex>ro</ex>paginis ratu<ex>m</ex> fieri decernerent · p<ex>er</ex> man<ex>us</ex> scripto<ex>rum</ex> iugi studio litteraru<ex>m</ex> memoriis co<ex>n</ex>men-
@@ -244,6 +245,7 @@ lb n="42"/>quę ducitur usq<ex>ue</ex> ad baluuan · Hęc loca quicquid in se in
 <lb n="63"/>Anno salutiferę incarnationis unici numinis celi septemplicis uniuersęq<ex>ue</ex> creationis · Mill<ex>esimo</ex> · L · V · feliciter ·
 <lb n="64"/>regnante p<ex>re</ex>fato uictoriosissimo · principe · anno regni sui · VIIII · &amp; cu<ex>m</ex> eo nobilissimo duce · B<ex>ela</ex> · conscriptum est hoc
 <lb n="65"/>priuilegium a beatissimo p<ex>re</ex>sule · N<ex>icolao</ex> · qui tunc te<ex>m</ex>poris uice<ex>m</ex> p<ex>ro</ex>curabat notarii · in curia regali · consignatu<ex>m</ex>q<ex>ue</ex> manu regis
+</body>
 <back>
 [ADDITAMENTUM]
 <lb n="1"/>De ęclesiasticis s<ex>an</ex>c<ex>t<e> [ę] marię scilicet &amp; s<ex>an</ex>c<ex>t</ex>i aniani rebus quia r[e]fu<ex>n</ex>dere omnes non potuimus · subscripsimus aut<ex>em</ex> hic ·
@@ -263,6 +265,5 @@ lb n="42"/>quę ducitur usq<ex>ue</ex> ad baluuan · Hęc loca quicquid in se in
 <lb n="52"/>de armento Regis :-
 <lb n="53"/>L · l<ex>i</ex>b<ex>er</ex>i eq[<ex>uorum</ex>]
 </back>
-</body>
 </text>
 </TEI>
