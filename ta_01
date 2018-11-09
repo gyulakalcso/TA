@@ -27,8 +27,8 @@
 				</respStmt>
 				
 				<respStmt>
-					<resp xml:lang="hun">XML szerkesztés: </resp>
-					<resp xml:lang="eng">XML-editor: </resp>
+					<resp xml:lang="hun">XML-szerkesztés: </resp>
+					<resp xml:lang="eng">XML editor: </resp>
 					<persName xml:id="msz">
 						<surname>Maróthy</surname>
 						<forename>Szilvia</forename>
@@ -174,14 +174,14 @@
 				</msDesc>
 			</sourceDesc>
 		</teiHeader>
-		<text xml:lang="la">
-			<front>
+<text xml:lang="la">
+<front>
 XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)ATIS ANDREAS · D<ex>E</ex>I ANNUENTE CLEM<ex>EN</ex>TIA PANNONIORV<ex>M</ex> INVICTVS REX ·</front><body>
 <lb n="2"/>Q<ex>uonia</ex>m nonnulli mortaliu<ex>m</ex> pleru<ex>m</ex>q<ex>ue</ex> hebetati mente siue p<ex>er</ex> ignauia<ex>m</ex> · seu p<ex>er</ex> neglegentię culpa<ex>m</ex> · sepissime etia<ex>m</ex> p<ex>er</ex> s<ex>e</ex>c<ex>u</ex>laris rei cura<ex>m</ex> · n<ex>on</ex> multo post te<ex>m</ex>pore peritura<ex>m</ex> ·
 <lb n="3"/>quę uiderant &amp; audierant obliuionis leuitatib<ex>us</ex> inscii · inmemoresq<ex>ue</ex> credider<ex>unt</ex> · doctores · philosophi · patresq<ex>ue</ex> n<ex>ost</ex>ri qua<ex>m</ex>plurimi consilio · prudentia ·
 <lb n="4"/>suaq<ex>ue</ex> inuener<ex>unt</ex> industria · ut quicquid humanę filii p<ex>ro</ex>paginis ratu<ex>m</ex> fieri decernerent · p<ex>er</ex> man<ex>us</ex> scripto<ex>rum</ex> iugi studio litteraru<ex>m</ex> memoriis co<ex>n</ex>men-
 <lb n="5"/>darent · ne p<ex>er</ex> cariosam uetustate<ex>m</ex> · poss&amp; deleri · apud posteri successores ęui · Id <ex>er</ex>g<ex>o</ex> quia utile ipsis uisum e<ex>st</ex> &amp; bonu<ex>m</ex> · cunctis modernis sapientib<ex>us</ex>
-				<lb n="6"/>utilius idipsum uideat<ex>ur</ex> · &amp; optimu<ex>m</ex> · Unde itaq<ex>ue</ex> xp<ex>ist</ex>ianissimus sceptrifer Andreas iussu auctoritatiuo sub cartali testam<ex>en</ex>to huius priuilegii exarari
+<lb n="6"/>utilius idipsum uideat<ex>ur</ex> · &amp; optimu<ex>m</ex> · Unde itaq<ex>ue</ex> xp<ex>ist</ex>ianissimus sceptrifer Andreas iussu auctoritatiuo sub cartali testam<ex>en</ex>to huius priuilegii exarari
 <lb n="7"/>edix<ex>it</ex> · thomo p<ex>re</ex>sente seriatim monstrante · quicquid ad ęccl<ex>esi</ex>am s<ex>an</ex>c<ex>t</ex>ę marię · s<ex>an</ex>c<ex>t</ex>iq<ex>ue</ex> aniani ep<ex>iscop</ex>i &amp; conf<ex>essoris</ex> · in loco qui uulgo dicit<ex>ur</ex> tichon sup<ex>er</ex> balatin · pro sua
 <lb n="8"/>&amp; coniugis · filio<ex>rum</ex> filiaru<ex>m</ex>q<ex>ue</ex> &amp; om<ex>n</ex>iu<ex>m</ex> parentu<ex>m</ex> suo<ex>rum</ex> uiuo<ex>rum</ex> siue defuncto<ex>rum</ex> salute tradidit · in t<ex>er</ex>ris · cultis · &amp; incultis · in uineis · in agriculturis · in seruis · in
 <lb n="9"/>ancillis · in equis · in bubus &amp; ouib<ex>us</ex> · &amp; porcis · in apib<ex>us</ex> · &amp; ipsaru<ex>m</ex> custodib<ex>us</ex> · &amp; in ornam<ex>en</ex>tis ei<ex>us</ex>de<ex>m</ex> ęccl<ex>esi</ex>ę honori p<ex>er</ex>tinentib<ex>us</ex> · Tradidit eni<ex>m</ex> inibi gl<ex>ori</ex>osus prefatus
@@ -193,22 +193,22 @@ XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)AT
 <lb n="15"/>qui totus ibi apend&amp; · &amp; ab eode<ex>m</ex> huluoodi quicq<ex>ui</ex>d e<ex>st</ex> usq<ex>ue</ex> ad monticulu<ex>m</ex> · &amp; ex hoc usq<ex>ue</ex> ad lacu<ex>m</ex> turku · qui medius ad p<ex>o</ex>p<ex>u</ex>l<ex>u</ex>m medius aut<ex>em</ex> p<ex>er</ex>tin&amp; ad ęccl<ex>esi</ex>am · &amp; hic
 <lb n="16"/>extendit<ex>ur</ex> usq<ex>ue</ex> ad zakadat inde ad magna<ex>m</ex> uia<ex>m</ex> · ex hinc usq<ex>ue</ex> ad angulu<ex>m</ex> aruk · &amp; postea usq<ex>ue</ex> ad seg · ac deinde ad ursa · inde u<ex>ero</ex> ad magnu<ex>m</ex> lacu<ex>m</ex> · Preter hunc est
 <lb n="17"/>alius locus · foeno habilis &amp; aptus inter zilu kut &amp; kues kut · ibide<ex>m</ex> p<ex>er</ex>tinens · Similit<ex>er</ex> p<ex>er</ex>tin&amp; ibi alius locus · kert hel nomine ad fenu<ex>m</ex> utilis · Rursus e<ex>st</ex>
-				<lb n="18"/>locus p<ex>er</ex>tinens ad p<ex>re</ex>fata<ex>m</ex> ęccl<ex>esi</ex>am · qui incipit ab eode<ex>m</ex> lacu bolatin · cuius e<ex>st</ex> uocabulu<ex>m</ex> koku zarma · tendens usq<ex>ue</ex> ad magna<ex>m</ex> uia<ex>m</ex> · quę dirigitur in keuris tue ·<ex>
+<lb n="18"/>locus p<ex>er</ex>tinens ad p<ex>re</ex>fata<ex>m</ex> ęccl<ex>esi</ex>am · qui incipit ab eode<ex>m</ex> lacu bolatin · cuius e<ex>st</ex> uocabulu<ex>m</ex> koku zarma · tendens usq<ex>ue</ex> ad magna<ex>m</ex> uia<ex>m</ex> · quę dirigitur in keuris tue ·<ex>
 </ex>
-				<lb n="19"/>&amp; inde iteru<ex>m</ex> usq<ex>ue</ex> ad ia<ex>m</ex> sepe p<ex>re</ex>nominatu<ex>m</ex> lacu<ex>m</ex> · Quęcu<ex>n</ex>q<ex>ue</ex> aut<ex>em</ex> continent<ex>ur</ex> infra hęc · siue insulę · seu feno habiles t<ex>er</ex>rę · seu prata p<ex>ro</ex>cul dubio ei<ex>us</ex>de<ex>m</ex> sunt ęccl<ex>esi</ex>ę
+<lb n="19"/>&amp; inde iteru<ex>m</ex> usq<ex>ue</ex> ad ia<ex>m</ex> sepe p<ex>re</ex>nominatu<ex>m</ex> lacu<ex>m</ex> · Quęcu<ex>n</ex>q<ex>ue</ex> aut<ex>em</ex> continent<ex>ur</ex> infra hęc · siue insulę · seu feno habiles t<ex>er</ex>rę · seu prata p<ex>ro</ex>cul dubio ei<ex>us</ex>de<ex>m</ex> sunt ęccl<ex>esi</ex>ę
 <lb n="20"/>p<ex>re</ex>ter hęc serui ęccl<ex>esi</ex>ę illius cu<ex>m</ex> t<ex>er</ex>ra &amp; cu<ex>m</ex> piscationib<ex>us</ex> qua<ex>m</ex> prius cu<ex>m</ex> ceteris p<ex>o</ex>p<ex>u</ex>lis possidebant · ibidem p<ex>er</ex>tinent · Arbusta aut<ex>em</ex> quamplurima p<ex>er</ex> circuitu<ex>m</ex> iacentia ·
 <lb n="21"/>eide<ex>m</ex> domo d<ex>e</ex>i de parte p<ex>re</ex>noti regis p<ex>er</ex> ministro<ex>rum</ex> suo<ex>rum</ex> manus s<ex>un</ex>t designata · Inter seku ueieze · &amp; uia<ex>m</ex> quę ducit ad portu<ex>m</ex> · siue in piscationib<ex>us</ex> seu in arun-
 <lb n="22"/>dinetis eide<ex>m</ex> ęccl<ex>esi</ex>ę adpendent · Cu<ex>m</ex> his quę p<ex>re</ex>scripsim<ex>us</ex> est alius locus in eode<ex>m</ex> bolatin · inter putu uueieze &amp; knez · ad s<ex>an</ex>c<ex>t</ex>am p<ex>er</ex>tinens ęccl<ex>esi</ex>am cu<ex>m</ex> s<ex>ui</ex>s piscatio-
 <lb n="23"/>nib<ex>us</ex> &amp; arundinetis · Pret<ex>er</ex> ista locus e<ex>st</ex> cognominatus · lupa · ubi sunt arbores diuersi generis · cumulo · &amp; pratis · ibi similit<ex>er</ex> cu<ex>m</ex> suis redditib<ex>us</ex> adpenden-
 <lb n="24"/>tia · &amp; hinc circu<ex>m</ex>iacent tria alia loca ad fęnu<ex>m</ex> secandu<ex>m</ex> n<ex>on</ex> paru<ex>m</ex> apta inibi adpendentia · Alias e<ex>st</ex> uilla quę uocat<ex>ur</ex> gamas · in qua hab&amp; p<ex>re</ex>fata ęccl<ex>esi</ex>a t<ex>er</ex>ra<ex>m</ex>
-				<lb n="25"/>quę duab<ex>us</ex> continet<ex>ur</ex> uiis · quaru<ex>m</ex> una uocat<ex>ur</ex> ziget zadu · altera magna · quę simul ad s<ex>an</ex>c<ex>tu</ex>m clem<ex>en</ex>te<ex>m</ex> terminant<ex>ur</ex> · Silua aut<ex>em</ex> qua<ex>m</ex> ibi rex habebat
+<lb n="25"/>quę duab<ex>us</ex> continet<ex>ur</ex> uiis · quaru<ex>m</ex> una uocat<ex>ur</ex> ziget zadu · altera magna · quę simul ad s<ex>an</ex>c<ex>tu</ex>m clem<ex>en</ex>te<ex>m</ex> terminant<ex>ur</ex> · Silua aut<ex>em</ex> qua<ex>m</ex> ibi rex habebat
 <lb n="26"/>circu[mquaque campis sibi iacentibus et cum convallibus] ad p<ex>re</ex>fata<ex>m</ex> p<ex>er</ex>tin&amp; ęccl<ex>esi</ex>am · Exceptis his quę p<ex>re</ex>notata superius uident<ex>ur</ex> · Alius locus qui gisnav dicitur ·
 <lb n="27"/>hęc talib<ex>us</ex> t<ex>er</ex>minat<ex>ur</ex> confiniis · iuxta fizeg munorau kereku · inde uluues megaia · post monarau bukurea · hinc ad fizeg azaa · deinde ultra
 <lb n="28"/>fyzeg ad brokinarea · &amp; exinde ad public(a<ex>m</ex>) uia<ex>m</ex> · quę p<ex>ro</ex>telat<ex>ur</ex> usq<ex>ue</ex> ad kurtuel fa · inde u<ex>ero</ex> ad hurhu <e> (·) hinc usq<ex>ue</ex> ad alia<ex>m</ex> uia<ex>m</ex> · quę ducitur iterv<ex>m</ex>
-					<lb n="29"/>ad monarau kerekv · Quęcu<ex>n</ex>q<ex>ue</ex> eni<ex>m</ex> his confi(n)iis continent<ex>ur</ex> [preter vine]as ad iam p<ex>re</ex>dicta<ex>m</ex> ęccl<ex>esi</ex>am p<ex>er</ex>tinent(i)a sunt · Adhuc aut<ex>em</ex> e<ex>st</ex> locus mortis dictus ·
+<lb n="29"/>ad monarau kerekv · Quęcu<ex>n</ex>q<ex>ue</ex> eni<ex>m</ex> his confi(n)iis continent<ex>ur</ex> [preter vine]as ad iam p<ex>re</ex>dicta<ex>m</ex> ęccl<ex>esi</ex>am p<ex>er</ex>tinent(i)a sunt · Adhuc aut<ex>em</ex> e<ex>st</ex> locus mortis dictus ·
 <lb n="30"/>cuius incipit t<ex>er</ex>minus a sar feu · eri iturea · <e> (h)inc ohut cutarea · inde ad holmodi rea · postea gnir uuege (h)olmodia rea · &amp; exinde mortis uuasara kuta<ex>
 </ex>
-						<lb n="31"/>rea · ac postea nogu azah fehe rea · inde ad ca(s)telic &amp; feheruuaru rea meneh hodu utu rea p<ex>ost</ex> hęc petre zenaia hel rea · Cu<ex>m</ex> his est alias uilla
+<lb n="31"/>rea · ac postea nogu azah fehe rea · inde ad ca(s)telic &amp; feheruuaru rea meneh hodu utu rea p<ex>ost</ex> hęc petre zenaia hel rea · Cu<ex>m</ex> his est alias uilla
 <lb n="32"/>quę uocatur fotudi · in qua hab&amp; eade<ex>m</ex> ęccl<ex>esi</ex>a (t<ex>e</ex>)rra<ex>m</ex> arabile<ex>m</ex> quę concluditur · his terminis · Magna uia inde aruk tue quę uallis usq<ex>ue</ex> ad kangrez uiam
 <lb n="33"/>extenditur quęq<ex>ue</ex> tendit usq<ex>ue</ex> ad lean syher <e> (i)ndeq<ex>ue</ex> ad aruk fee post ad luazu holma postea ad uia<ex>m</ex> quę d(u)cit ad kaztelic · Quicquid his terminis
 <lb n="34"/>continetur similit<ex>er</ex> ęccl<ex>esi</ex>ę prefatę adpend&amp; · (E)x alia parte · est locus &amp; terra arabilis cu<ex>m</ex> pratis quę ibi simil(it)er designata est a ministris regis · Infra
@@ -220,38 +220,37 @@ XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)AT
 <lb n="40"/>ad babu humca · inde uero ad oluphelr[e]a · postea ad cuesti inde p<ex>er</ex> medium aquę quę uocatur culun ex qua ad fekete kumuc · hinc
 <lb n="41"/>enim ad fuegnes humuc · postea ad cues humuc · post hęc ad gunusara hinc usq<ex>ue</ex> ad zakadat · ac deinde ad serne holma · post hęc ad aruk<ex>
 </ex>
-								<lb n="42"/>quę ducitur usq<ex>ue</ex> ad baluuan · Hęc loca quicquid in se in frutectis · in arundinetis · in pratis continent · huic domui d<ex>e</ex>i adpendent ·
+lb n="42"/>quę ducitur usq<ex>ue</ex> ad baluuan · Hęc loca quicquid in se in frutectis · in arundinetis · in pratis continent · huic domui d<ex>e</ex>i adpendent ·
 <lb n="43"/>Cu<ex>m</ex> om<ex>n</ex>ibus quę iam prescripta sunt addidit bonus rex eidem s<ex>an</ex>c<ex>t</ex>e ęccl<ex>esi</ex>ę · tercia<ex>m</ex> partem forensis tributu<ex>m</ex> de sumig · &amp; cu<ex>m</ex> eo similiter
 <lb n="44"/>tercia<ex>m</ex> partem in thelena cu<ex>m</ex> portu &amp; tributu · Addidit etiam lacum segisti · Ad seruiciu<ex>m</ex> quoq<ex>ue</ex> diuinu<ex>m</ex> strenue &amp; indefesse per-
 <lb n="45"/>agendu<ex>m</ex> · sed &amp; ad laudem ac s<ex>an</ex>c<ex>t</ex>o<ex>rum</ex> ueneratione<ex>m</ex> monacho<ex>rum</ex> grege<ex>m</ex> ibidem aggregauimus · quib<ex>us</ex> &amp; necessaria quęque ad uictu<ex>m</ex> potu<ex>m</ex> seu uestitu<ex>m</ex>
-								<lb n="46"/>forent ex regali habundantia adminstrauim<ex>us</ex> · ne in d<ex>e</ex>i seruicio tepescant · u<ex>e</ex>l uacandi occasione<ex>m</ex> habeant · Ne aut<ex>em</ex> in p<ex>ro</ex>cessu te<ex>m</ex>po<ex>rum</ex> sup<ex>er</ex> his quę
+<lb n="46"/>forent ex regali habundantia adminstrauim<ex>us</ex> · ne in d<ex>e</ex>i seruicio tepescant · u<ex>e</ex>l uacandi occasione<ex>m</ex> habeant · Ne aut<ex>em</ex> in p<ex>ro</ex>cessu te<ex>m</ex>po<ex>rum</ex> sup<ex>er</ex> his quę
 <lb n="47"/>ad honore<ex>m</ex> xp<ex>ist</ex>i · &amp; ibi degenciu<ex>m</ex> sibiq<ex>ue</ex> famu(l)antiu<ex>m</ex> sustentacione<ex>m</ex> ad p<ex>re</ex>fata<ex>m</ex> ęccl<ex>esi</ex>am c<ex>on</ex>tulim<ex>us</ex> aliqua paciant<ex>ur</ex> calu<ex>m</ex>pnia · singulatim cuncta in p<ex>re</ex>senti
 <lb n="48"/>cartula notarii manu adsignata habent<ex>ur</ex> (·) Sunt igit<ex>ur</ex> aratra XX · cu<ex>m</ex> LX · mansionibus · Vinitores cu<ex>m</ex> uineis XX · equites · XX · piscatores · X ·
 <lb n="49"/>agasones · V · bubulci · III · pastores ouiu<ex>m</ex> (·) III · subulci · II · apinarii · II · coquinarii · II · sutores · II · fabri · II · aurifex · I · dolatores · II · molen-
 <lb n="50"/>dinarii cu<ex>m</ex> molendinis · II · tornator I · uestim<ex>en</ex>to<ex>rum</ex> ablutor · I · cerdo · I · ancillę · X · p<ex>re</ex>ter hęc sunt emissarii · XXXIIII · cu<ex>m</ex> subditis equabus ·
 <lb n="51"/>Vaccę · C · Oues · septingentę · Porci · C · apiu<ex>m</ex> uasa · L · Preter hęc ad necessaria fr<ex>atru</ex>m p<ex>er</ex> singulos annos c<ex>on</ex>stituim<ex>us</ex> de arm<ex>en</ex>to regali · L · pol&amp;ros ·
 <lb n="52"/>Inter om<ex>ne</ex>s na<ex>m</ex>q<ex>ue</ex> sunt seruo<ex>rum</ex> ęccl<ex>esi</ex>ę mansio[ne]s · C · XL · Hęc om<ex>ni</ex>a libera donatione ad p<ex>re</ex>fatu<ex>m</ex> coenob[ium] contulim<ex>us</ex> · &amp; ne quis p<ex>er</ex> succedentiu<ex>m</ex> te<ex>m</ex>po<ex>rum</ex>
-								<lb n="53"/>curricula aliquid ex his defraudare u<ex>e</ex>l r[et]rahere audeat int<ex>er</ex>minando detestam<ex>ur</ex> · Si quis aut<ex>em</ex> malo deprauatus consilio istius decr&amp;i trans-
+<lb n="53"/>curricula aliquid ex his defraudare u<ex>e</ex>l r[et]rahere audeat int<ex>er</ex>minando detestam<ex>ur</ex> · Si quis aut<ex>em</ex> malo deprauatus consilio istius decr&amp;i trans-
 <lb n="54"/>gressor rep<ex>er</ex>tus fuerit sequestratus a d<ex>e</ex>o p<ex>er</ex>p&amp;ua feriatur uindicta · &amp; XII · libras auri p<ex>er</ex>soluere cogat<ex>ur</ex> · Et ut hęc descriptio rata atq<ex>ue</ex> incon-
 <lb n="55"/>uulsa p<ex>er</ex>maneat · sigilli n<ex>ost</ex>ri inp<ex>re</ex>ssione signauim<ex>us</ex> · fidelib<ex>us</ex>q<ex>ue</ex> n<ex>ost</ex>ris corroboranda<ex>m</ex> tradidimus ·
 <lb n="56"/>+ Signum Benedicti archiep<ex>iscop</ex>i · + · Signum · Mauri ep<ex>iscop</ex>i · + · Signu<ex>m</ex> · Clem<ex>en</ex>ti ep<ex>iscop</ex>i · + · Sig<ex>num</ex> Lazari abb<ex>atis</ex> ·
 <lb n="57"/>Sig<ex>num</ex> · Gilconi comitis · + · Signum Zache comitis palatii · + · Signu<ex>m</ex> Woiteh
 <lb n="58"/>comitis · <későbbi betoldás="">+ · Sig<ex>num</ex> · Nicolai ep<ex>iscop</ex>i ·</későbbi betoldás>
-								<lb n="59"/>		ANDREAS		 [LOCUS SIGILLI] 		REX
-|<lb n="60"/> + · Sig<ex>num</ex> · Lutouic · comitis · + · Signum · Irnei comitis · + · Sig<ex>num</ex> · Viti comitis · + Signv<ex>m</ex>
-								<lb n="61"/>Martini comitis · + · Sig<ex>num</ex> · Helie comitis · + · Sig<ex>num</ex> · Andreę comitis · + · Sig<ex>num</ex> · Fancel comitis ·
+<lb n="59"/>		ANDREAS		 [LOCUS SIGILLI] 		REX
+<lb n="60"/> + · Sig<ex>num</ex> · Lutouic · comitis · + · Signum · Irnei comitis · + · Sig<ex>num</ex> · Viti comitis · + Signv<ex>m</ex>
+<lb n="61"/>Martini comitis · + · Sig<ex>num</ex> · Helie comitis · + · Sig<ex>num</ex> · Andreę comitis · + · Sig<ex>num</ex> · Fancel comitis ·
 <lb n="62"/>+ · Sig<ex>num</ex> · Nane agasonis · + · Sig<ex>num</ex> · Cupan iudici<későbbi betoldás="">s</későbbi betoldás> · + · S<ex>ignum</ex> · Preca infertoris · + · Sig<ex>num</ex> Celu minister
 <lb n="63"/>Anno salutiferę incarnationis unici numinis celi septemplicis uniuersęq<ex>ue</ex> creationis · Mill<ex>esimo</ex> · L · V · feliciter ·
 <lb n="64"/>regnante p<ex>re</ex>fato uictoriosissimo · principe · anno regni sui · VIIII · &amp; cu<ex>m</ex> eo nobilissimo duce · B<ex>ela</ex> · conscriptum est hoc
 <lb n="65"/>priuilegium a beatissimo p<ex>re</ex>sule · N<ex>icolao</ex> · qui tunc te<ex>m</ex>poris uice<ex>m</ex> p<ex>ro</ex>curabat notarii · in curia regali · consignatu<ex>m</ex>q<ex>ue</ex> manu regis
-							<back>
+<back>
 [ADDITAMENTUM]
 <lb n="1"/>De ęclesiasticis s<ex>an</ex>c<ex>t<e> [ę] marię scilicet &amp; s<ex>an</ex>c<ex>t</ex>i aniani rebus quia r[e]fu<ex>n</ex>dere omnes non potuimus · subscripsimus aut<ex>em</ex> hic ·
-<lb n="2"/>VI · planetę · &amp; VI · albę cum amictis &amp; stolis · atq<ex>ue</ex> cum manipulis · <későbbi betoldás="">etia<ex>m</ex>
-										</későbbi betoldás> capi[d]ulum dalmaticę · &amp; II · subtilia · I · curtina
+<lb n="2"/>VI · planetę · &amp; VI · albę cum amictis &amp; stolis · atq<ex>ue</ex> cum manipulis · <későbbi betoldás="">etia<ex>m</ex></későbbi betoldás> capi[d]ulum dalmaticę · &amp; II · subtilia · I · curtina
 <lb n="3"/>linea · calices aurei scilic&amp; tres · duo candelabra argentea · Unu<ex>m</ex> thuribulu<ex>m</ex> aureu<ex>m</ex> · Et una crux ęrea deaurata ·
 <lb n="4"/>Pallia XII · Duo missales · Vnu<ex>m</ex> [no]cturnale · Duo gradalia · Vna urna argentea · Vna scutella argentea · &amp; salinu<ex>m</ex>
-										<lb n="5"/>argent<ex>eum</ex> · Vnu<ex>m</ex> cocleare argenta · Tapecia duo · Et baccinia duo · Adiunxit q<ex>uo</ex>q<ex>ue</ex> piissim<ex>us</ex> rex p<ex>ro</ex> necessitate ęccl<ex>esi</ex>ę atq<ex>ue</ex> fr<ex>atru</ex>m
+<lb n="5"/>argent<ex>eum</ex> · Vnu<ex>m</ex> cocleare argenta · Tapecia duo · Et baccinia duo · Adiunxit q<ex>uo</ex>q<ex>ue</ex> piissim<ex>us</ex> rex p<ex>ro</ex> necessitate ęccl<ex>esi</ex>ę atq<ex>ue</ex> fr<ex>atru</ex>m
 <lb n="6"/>bezprenensis mercati tributu<ex>m</ex> · <későbbi betoldás="">víde</későbbi betoldás>lic&amp; sua<ex>m</ex> parte<ex>m</ex> in cacabis &amp; [u]ome[r]ib<ex>us</ex> in ydriis · &amp;iam in om<ex>n</ex>ib<ex>us</ex> ferram<ex>en</ex>tis ·
 [INDICES] 
 <lb n="14"/>fuc
@@ -265,5 +264,5 @@ XP<ex>ISTUS</ex> · IN NOMINE S<ex>AN</ex>C<ex>T</ex>Ę ET INDIUIDVĘ TRIN(IT)AT
 <lb n="53"/>L · l<ex>i</ex>b<ex>er</ex>i eq[<ex>uorum</ex>]
 </back>
 </body>
-								</text>
-							</TEI>
+</text>
+</TEI>
