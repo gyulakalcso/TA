@@ -40,7 +40,7 @@
 				</respStmt>
 			</editionStmt>
 			<publicationStmt>
-				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :</gap> -->
+				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :-->
 					<orgName ref="">Eötvös Loránd Tudományegyetem</orgName>
 					<orgName ref="">Eszterházy Károly Egyetem</orgName>
 				</publisher>
@@ -50,13 +50,11 @@
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 						<p>A mű a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi Licenc alatt van.</p>
-						
 						<p xml:lang="en">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
-						<ref style="border-width:0" target="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+						<ref target="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
 					</licence>
 				</availability>
 			</publicationStmt>
-		
 			<sourceDesc>
 				<msDesc>
 					<!--Ez az egy kötelező, a többi opcionális, de kötött a sorrendjük!-->
@@ -68,7 +66,7 @@
 						<idno>Tihan, fasc. 1, nr. 1.</idno><!--L. Szentgyörgyi 2014: 38.-->
 						<msName>A tihanyi apátság alapítólevele</msName>
 						<msName xml:lang="en">The Establishing <!--Foundation?--> Charter of the Abbey of Tihany</msName>
-  <!--esetleg ide jöhet még a név más nyelven <gap>pl. latinul?</gap>--></msDesc>
+  <!--esetleg ide jöhet még a név más nyelven (pl. latinul?)--></msDesc>
 					<msContents>
 						<msItem><!--Ha volna szöveges leírás, akkor tagek nem lehetnek!-->
 							<title type="uniform">Tihanyi alapítólevél</title>
@@ -81,7 +79,7 @@
 						</msItem>
 					</msContents>
 					<physDesc>
-						<objectDesc form=""><!--enek értéke kérdéses, ellenőrizni kell-->
+						<objectDesc form=""><!--ennek értéke kérdéses, ellenőrizni kell-->
 							<supportDesc material="perg">
 								<support>
 									<p>Pergamen, két összevarrt déli hártya.</p>
