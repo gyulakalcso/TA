@@ -25,7 +25,7 @@
 						<forename>Szilvia</forename>
 					</persName>
 				</respStmt>
-				
+
 				<respStmt>
 					<resp>XML-szerkesztés: </resp>
 					<resp xml:lang="en">XML editor: </resp>
@@ -40,7 +40,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Web: </resp>
-					<persName ref="#kgy">
+					<persName ref="kgy">
 						<surname>Kalcsó</surname>
 						<forename>Gyula</forename>
 					</persName>
@@ -124,7 +124,7 @@
 						<handDesc>
 							<p>Az előlap egyetlen kéz munkája, Szentgyörgyi (2014) szerint a tanúk neve előtti kereszt alakú jeleket is ugyanaz írta.</p>
    <!--
-   <handNote>Akkor kell, ha több kéz azonosítható. Hátlap? 
+   <handNote>Akkor kell, ha több kéz azonosítható. Hátlap?
    -->
 						</handDesc>
 						<scriptDesc>
@@ -157,7 +157,7 @@
 					</physDesc>
 					<history><!--Mindhárom összetevőnek ua. a struktúrája. A másodikból természetesen lehet több is.-->
 						<origin>
-							<p>Készült 
+							<p>Készült
 							<origDate when-iso="1055">1055</origDate>-ben, keletkezési helye tisztázatlan.
 							</p>
 						</origin>
